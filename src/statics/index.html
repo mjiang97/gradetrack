@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CS 444/544: Project 4</title>
+    <link href="style.css" rel="stylesheet">
+
+    <script src="../../dist/lib/index.js" type="module"></script>
+  </head>
+  <h1>CS 444/544: Project 4</h1>
+
+  <form class="form" id="grades-form" method="POST">
+
+    <label for="section-id">Course</label>
+    <select name="sectionId" id="section-id">
+      <option value="">Select Section</option>
+    </select>
+
+    <label for="is-editable">Is Editable</label>
+    <input id="is-editable" type="checkbox" name="isEditable">
+
+  </form>
+ 
+  <ul class="error" id="errors"></ul>
+   
+  <div id="grades"><table></table></div>
+  
+</html>

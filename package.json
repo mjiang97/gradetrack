@@ -1,0 +1,27 @@
+{
+  "name": "prj4-sol",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npx parcel src/statics/index.html  --dist-dir=target --port 2346",
+    "clean": "npx shx rm -rf dist target .parcel-cache",
+    "build": "npx tsc",
+    "watch": "npx tsc --watch",
+    "test": "npx shx echo No tests specified"
+  },
+  "type": "module",
+  "browserslist": [
+    "since 2025-01"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Name:\t\tMacy Jiang B-Number:\tB00941120 Email:\t\tmjiang45@binghamton.edu",
+  "devDependencies": {
+    "parcel": "^2.14.4",
+    "shx": "^0.4.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "grades-client-lib": "https://sunybing:sunybing@zdu.binghamton.edu/cs544/lib/grades-client-lib-0.0.1.tgz"
+  }
+}
